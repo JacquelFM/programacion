@@ -1,0 +1,25 @@
+Es lo que la clase tiene o lo que la clase tiene.
+¿La sala tiene una pelícua o una película tiene clases?
+LiveServer
+
+Tarea:
+
+"Carrito de compras"
+
+-> Necesitamos tener un catálogo de artítulos
+-> Crear clase productos
+-> Esa clase producto va a tener: nombre del producto, cantidad y el precio unitario
+
+Métodos:
+    1. Regresar el costo total en pesos
+    2. Regresar el costo total en dólares
+
+HTML:
+    *Formulario:
+        -Nombre
+        -Cantidad
+        -Precio unitario
+        -Botón:
+            * Instancia de ese producto
+
+-> Imprimir resultado en consola
