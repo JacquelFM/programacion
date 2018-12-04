@@ -1,6 +1,6 @@
 import Compra from "./main.js";
 
-class Main {
+class Productos {
     constructor() {
         document
             .querySelector("#btnCostoPesos")
@@ -45,4 +45,4 @@ class Main {
     }
 }
 
-var m = new Main();
+var m = new Productos();
