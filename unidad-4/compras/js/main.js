@@ -1,4 +1,4 @@
-export default class Compra {
+export default class Productos {
     constructor(nombre, cantidad, precioUnitario) {
         this.nombre = nombre;
         this.cantidad = cantidad;

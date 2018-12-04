@@ -1,6 +1,6 @@
-import Compra from "./main.js";
+import Productos from "./main.js";
 
-class Productos {
+class Compra {
     constructor() {
         document
             .querySelector("#btnCostoPesos")
@@ -15,7 +15,7 @@ class Productos {
         let cantidad = document.querySelector("#cantidad");
         let precioUnitario = document.querySelector("#precioUnitario");
 
-        let compra = new Compra(
+        let compra = new Productos(
             nombre.value,
             Number(cantidad.value),
             Number(precioUnitario.value)
@@ -32,7 +32,7 @@ class Productos {
         let cantidad = document.querySelector("#cantidad");
         let precioUnitario = document.querySelector("#precioUnitario");
 
-        let compra = new Compra(
+        let compra = new Productos(
             nombre.value,
             Number(cantidad.value),
             Number(precioUnitario.value)
@@ -45,4 +45,4 @@ class Productos {
     }
 }
 
-var m = new Productos();
+var m = new Compra();
